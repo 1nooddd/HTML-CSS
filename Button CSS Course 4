@@ -1,0 +1,208 @@
+<style>
+    .Back {
+        vertical-align: top;
+        margin-left: 0;
+        margin-right: 4px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 4px;
+        padding-left: 4px;
+    }
+    .col1 {
+        vertical-align: top;
+        margin-left: 0;
+        margin-right: 4px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 4px;
+        padding-left: 4px;
+        background-color: white;
+        border: none;
+    }
+    .col2 {
+        vertical-align: top;
+        margin-left: 0;
+        margin-right: 4px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 4px;
+        padding-left: 4px;
+        background-color: white;
+        border: none;
+    }
+    .col3 {
+        vertical-align: top;
+        margin-left: 0;
+        margin-right: 4px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 4px;
+        padding-left: 4px;
+        background-color: white;
+        border: none;
+    }
+    .col4 {
+        vertical-align: top;
+        margin-left: 0;
+        margin-right: 4px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 4px;
+        padding-left: 4px;
+        background-color: white;
+        border: none;
+    }
+    .col5 {
+        vertical-align: top;
+        margin-left: 0;
+        margin-right: 4px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 4px;
+        padding-left: 4px;
+        background-color: white;
+        border: none;
+    }
+    .Next {
+        vertical-align: top;
+        margin-left: 0;
+        margin-right: 4px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 4px;
+        padding-left: 4px;
+    }
+    .Stretch {
+        vertical-align: top;
+        margin-left: 30px;
+        margin-right: 4px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        background-color: rgb(21, 131, 21);
+        font-weight: bold;
+        border: none;
+        color: white;
+        cursor: pointer;
+        transition: all 0.7s ease-in-out;
+    }
+    .Stretch:hover {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .Shadow {
+        vertical-align: top;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        background-color: rgb(21, 131, 21);
+        font-weight: bold;
+        border: none;
+        color: white;
+        cursor: pointer;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    .Shadow:active {
+        box-shadow: none;
+        margin-top: 1px;
+        margin-left: 1px;
+    }
+    .One {
+        vertical-align: top;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: rgb(21, 131, 21);
+        font-weight: bold;
+        border: none;
+        color: white;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .One:hover {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .Two {
+        vertical-align: top;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: rgb(21, 131, 21);
+        font-weight: bold;
+        border: none;
+        color: white;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .Two:hover {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .Three {
+        vertical-align: top;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: rgb(21, 131, 21);
+        font-weight: bold;
+        border: none;
+        color: white;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .Three:hover {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+</style>
+
+<button class="Back">
+    Back
+</button>
+<button class="col1">
+    1
+</button>
+<button class="col2">
+    2
+</button>
+<button class="col3">
+    3
+</button>
+<button class="col4">
+    4
+</button>
+<button class="col5">
+    5
+</button>
+<button class="Next">
+    Next
+</button>
+<button class="Stretch">
+    Stretch
+</button>
+<button class="Shadow">
+    Shadow
+</button>
+<button class="One">
+    One
+</button>
+<button class="Two">
+    Two
+</button>
+<button class="Three">
+    Three
+</button>
