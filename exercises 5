@@ -1,0 +1,98 @@
+<style>
+    .Tahoma-word {
+        font-family: Tahoma;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .Biggest-word {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    .Sales-word {
+        font-family: Arial;
+        font-style: italic;
+        color: red;
+        margin-top: 4px;
+        font-size: 17px;
+    }
+    .HTML-word {
+        font-family: Verdana;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+    .Beginner-word {
+        font-family: Verdana;
+        color: gray;
+        margin-top: 2px;
+        font-size: 18px;
+    }
+    .Paragraph-word {
+        font-family: Verdana;
+        width: 300px;
+        font-size: 16px;
+    }
+    .button-get {
+        background-color: green;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .Shopping-word {
+        text-align: center;
+        font-family: Arial;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .See-word {
+        text-align: center;
+        font-family: Arial;
+        font-size: 13px;
+    }
+    .Learn-word {
+        text-align: center;
+        font-family: Arial;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .Learn-word:hover {
+        color: blue;
+        cursor: pointer;
+    }
+</style>
+<p class="Tahoma-word">
+    This is Tahoma Font
+</p>
+<p class="Biggest-word">
+    Biggest Deals of The Year!
+</p>
+<p class="Sales-word">
+    Sales end Tuesday
+</p>
+<p class="HTML-word">
+    HTML CSS Course
+</p>
+<p class="Beginner-word">
+    Beginner to Pro
+</p>
+<p class="Paragraph-word">
+    In this course, we'll learn the skills you need to become a developer.
+</p>
+<button class="button-get">
+    Get Started
+</button>
+<p class="Shopping-word">
+    Shopping for your business?
+</p>
+<p class="See-word">
+    See how Apple at Work can help.
+</p>
+<p class="Learn-word">
+    Learn more &gt
+</p>
