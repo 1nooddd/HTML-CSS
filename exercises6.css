@@ -1,0 +1,23 @@
+p {
+    font-family: Montserrat;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.model-word {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.order-word {
+    font-size: 20px;
+
+}
+.span-1 {
+    text-decoration: underline;
+}
+.span-1:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    color: aqua;
+}
