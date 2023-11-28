@@ -1,0 +1,41 @@
+<style>
+    p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-top: 0;
+        font-size: 15px;
+    }
+    .free-word {
+        font-weight: bold;
+    }
+    .span-1 {
+        margin-left: 2px;
+        color: gray;
+        font-weight: normal;
+    }
+    .span-1:hover {
+        color: blue;
+        cursor: pointer;
+    }
+    .as-word {
+        width: 500px;
+        line-height: 20px;
+    }
+    .span-2 {
+        color: blue;
+    }
+    .span-2:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+</style>
+
+<p class="free-word">
+    freeCodeCamp.ord <span class="span-1">@freeCodeCamp 1h</span>
+</p>
+<p class="as-word">
+    As a web developer, you'll want to make your projects easy to use and navigate around
+</p>
+<p class="here-word">
+    Here <span class="span-2">@chp_it</span> outlines the top skills new developers should have
+</p>
