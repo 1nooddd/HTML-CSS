@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kusuma</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 200px 75px;
+        }
+        .container-2 {
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;
+        }
+        .container-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="background-color: lightblue;" class="column-1">
+            200px
+        </div>
+        <div style="background-color: lightpink;" class="column-2">
+            75px
+        </div>
+    </div>
+    <div class="container-2">
+        <div style="background-color: lightblue;">
+            col1
+        </div>
+        <div style="background-color: lightpink;">
+            col2
+        </div>
+        <div style="background-color: lightblue;">
+            col3
+        </div>
+    </div>
+    <div class="container-3">
+        <div style="background-color: lightblue;">
+            col1
+        </div>
+        <div style="background-color: lightpink;">
+            col2
+        </div>
+        <div style="background-color: lightblue;">
+            col3
+        </div>
+        <div style="background-color: lightpink;">
+            col4
+        </div>
+        <div style="background-color: lightblue;">
+            col1
+        </div>
+        <div style="background-color: lightpink;">
+            col2
+        </div>
+        <div style="background-color: lightblue;">
+            col3
+        </div>
+        <div style="background-color: lightpink;">
+            col4
+        </div>
+    </div>
+</body>
+</html>
