@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testing</title>
+    <style>
+        .button {
+            width: 50px;
+            height: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 16px;
+            border: none;
+            color: white;
+            background-color: rgb(72, 72, 247);
+            font-weight: bold;
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+        .container-f {
+            display: flex;
+            height: 75px;
+            flex-direction: row;
+            margin-top: 100px;
+            font-size: 18px;
+            color: white;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rebeccapurple;
+        }
+        .left {
+            width: 200px;
+            padding-left: 40px;
+            
+        }
+        .middle {
+            flex: 1;
+            background-color: rebeccapurple;
+            max-width: 500px;
+        }
+        .placeholder {
+            width: 500px; 
+            height: 40px; 
+            border-radius: 20px; 
+            border: none;
+            padding-left: 20px;
+        }
+        .right {
+            width: 200px;
+        }
+        .button-1 {
+            height: 45px; 
+            width: 90px;
+            color: white;
+            border: 1px;
+            border-style: solid;
+            background-color: rebeccapurple;
+        }
+        .container-g {
+            margin-top: 100px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .picture {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 500px;
+        }
+        .name-player {
+            width: 300px;
+            margin-left: 50px;
+        }
+        .button-2 {
+            border: none;
+            width: 100px; 
+            height: 40px;
+            color: white;
+            font-size: 16px;
+            background-color: rgb(71, 71, 236);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 12e -->
+    <div
+        style="border: 1px; border-style: solid; border-color: rgb(230, 226, 226); width: 500px; font-size: 18px; font-weight: 500;">
+        <div style="display: flex; flex-direction: row;">
+            <p style="width: 500px; padding-left: 10px;">
+                Home
+            </p>
+            <button class="button">
+                14
+            </button>
+        </div>
+        <div>
+            <div style="display: flex; flex-direction: row;">
+                <p style="width: 500px; padding-left: 10px;">
+                    Notifications
+                </p>
+                <button class="button">
+                    3
+                </button>
+            </div>
+        </div>
+        <div>
+            <div>
+                <div style="display: flex; flex-direction: row;">
+                    <p style="width: 500px; padding-left: 10px;">
+                        Messages
+                    </p>
+                    <button class="button">
+                        5
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 12f -->
+    <div class="container-f">
+        <div class="left">
+            Home
+        </div>
+        <div class="middle">
+            <input type="text" placeholder="Search" class="placeholder">
+        </div>
+        <div class="right">
+            <button class="button-1">
+                Download
+            </button>
+        </div>
+    </div>
+    <!-- 12g -->
+    <div class="container-g">
+        <div class="display-picture">
+            <img class="picture" src="thumbnails/0_GettyImages-1816703299.jpg" alt="">
+        </div>
+        <div class="name-player">
+            <div style="font-weight: bold; font-size: 18px; margin-bottom: 5px;">
+                Alejandro
+            </div>
+            <div style="color: gray;font-size: 18px; margin-bottom: 5px;">
+                Garnacho
+            </div>
+            <div style="color: gray;font-size: 18px; margin-bottom: 5px;">
+                Manchester United
+            </div>
+        </div>
+        <div>
+            <button class="button-2">
+                Follow
+            </button>
+        </div>
+    </div>
+    <div class="container-g">
+        <div class="display-picture">
+            <img class="picture" src="thumbnails/1437082061.webp" alt="">
+        </div>
+        <div class="name-player">
+            <div style="font-weight: bold; font-size: 18px; margin-bottom: 5px;">
+                Cristiano
+            </div>
+            <div style="color: gray;font-size: 18px; margin-bottom: 5px;">
+                Ronaldo
+            </div>
+            <div style="color: gray;font-size: 18px; margin-bottom: 5px;">
+                Manchester United 2021
+            </div>
+        </div>
+        <div>
+            <button class="button-2">
+                Follow
+            </button>
+        </div>
+    </div>
+    <div class="container-g">
+        <div class="display-picture">
+            <img class="picture" src="thumbnails/skynews-manchester-united-ronaldo_5496322.jpg" alt="">
+        </div>
+        <div class="name-player">
+            <div style="font-weight: bold; font-size: 18px; margin-bottom: 5px;">
+                Cristiano
+            </div>
+            <div style="color: gray;font-size: 18px; margin-bottom: 5px;">
+                Ronaldo
+            </div>
+            <div style="color: gray;font-size: 18px; margin-bottom: 5px;">
+                Manchester United 2007
+            </div>
+        </div>
+        <div>
+            <button class="button-2">
+                Follow
+            </button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
