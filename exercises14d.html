@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon</title>
+    <style>
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.8);
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .modal {
+            width: 400px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .modal-1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 7px;
+        }
+        .modal-2 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 7px;
+        }
+    </style>
+</head>
+<body style="height: 3000px;">
+    <div style="position: fixed;
+    background-color: green;
+    color: white;
+    width: 100px;
+    right: 0;
+    bottom: 0;
+    top: 0;">
+        right sidebar
+    </div>
+    <div class="overlay">
+        <div class="modal">
+            <div class="modal-1">
+                Modal Title
+            </div>
+            <div class="modal-2">
+                This is a modal
+            </div>
+            <div class="button">
+                <button>
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
