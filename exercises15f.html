@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        .container {
+            position: relative;
+            display: inline-block;
+        }
+        .images {
+            width: 400px;
+            height: 500px;
+            object-fit: cover;
+        }
+        .discount {
+            position: absolute;
+            background-color: black;
+            color: white;
+            right: 0;
+            top: 5px;
+        }
+        .bottom-overlay {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            height: 80px;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .button {
+            padding: 4px 8px;
+            font-size: 14px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: black;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body style="height: 3000px;">
+    <div class="container">
+        <img class="images" src="asset/parker-burchfield-tvG4WvjgsEY-unsplash.jpg" alt="">
+        <div class="discount">
+        20% OFF
+        </div>
+        <div class="bottom-overlay">
+            <button class="button">Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>
